@@ -5,7 +5,7 @@ Feature: Obtener un pedido específico
     * def requestPedido = read('classpath:resourse/request/bodyCrearOrder.json')
     * def requestPedidoCreate = read('classpath:resourse/request/bodyOrderCreate.json')
     * def requestPedidoBad = read('classpath:resourse/request/bodyOrderBad.json')
-  #----------------Creación de órdenes-----------------------
+  #----------------Creación de órdenes----------------------
   Scenario: Obtener respuesta 200
     Given url petStore
     And path '/store/order'
